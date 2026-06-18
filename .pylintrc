@@ -10,6 +10,10 @@ disable=
       C0321, # multiple-statements
       W0221, # Arguments-differ
       R0801, # Duplicate-code
+      W1310, # format-string-without-interpolation
+      C0303, # trailing-whites-space
+      R0903, # too few public methods
+
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
